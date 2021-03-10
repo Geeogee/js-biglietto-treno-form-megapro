@@ -61,3 +61,28 @@ h2 {
     height: 200px;
     width: 80%;
 }
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+table {
+    border-spacing: 0;
+    padding: 10px;
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+table td, table th {
+    padding: 20px;
+}
+
+table td:first-child, table th:first-child {
+    background-color: grey;
+}
+
+#errors {
+    font-size: 1.5rem;
+}

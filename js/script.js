@@ -30,7 +30,7 @@ generateBtn.addEventListener("click", function() {
         } else if (errors[i] == 1) {
             errorsDiv.innerHTML += "Il campo <strong> Distanza </strong> non &egrave stato correttamente compilato! <br>"
         } else {
-            errorsDiv.innerHTML += "Il campo <strong> et&agrave; </strong> non &egrave; stato correttamente compilato! <br>"
+            errorsDiv.innerHTML += "Il campo <strong> Et&agrave; </strong> non &egrave; stato correttamente compilato! <br>"
         }
     }
 
