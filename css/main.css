@@ -37,6 +37,8 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    font-size: 1rem;
 }
 
 .user-values {
@@ -46,10 +48,21 @@ h2 {
 
 .user-values label {
     display: block;
+    color: #b91450;
 }
 
 .user-values > div {
     margin: 20px 10px;
+}
+
+.user-values input, .user-values select {
+    border-radius: 5px;
+    border: 1px solid #b91450;
+    padding: 5px;
+}
+
+.user-values input:focus, .user-values select:focus {
+    outline: 0;
 }
 
 .container-actions {
@@ -59,23 +72,30 @@ h2 {
 .ticket-generated {
     background-color: #FFF;
     width: 80%;
+    padding: 40px 0;
 }
 
 h3 {
     text-transform: uppercase;
     font-size: 1.5rem;
+    margin-left: 10%;
 }
 
 table {
     border-spacing: 0;
+    border-collapse: collapse;
     padding: 10px;
     font-size: 1.5rem;
     width: 80%;
     margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 table td, table th {
     padding: 20px;
+    
 }
 
 table td:first-child, table th:first-child {
@@ -83,5 +103,6 @@ table td:first-child, table th:first-child {
 }
 
 #errors {
+    margin-top: 40px;
     font-size: 1.5rem;
 }
