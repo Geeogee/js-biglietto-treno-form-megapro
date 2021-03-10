@@ -61,7 +61,7 @@ generateBtn.addEventListener("click", function() {
             document.getElementById("discount").innerHTML = "Sconto " + discountStr;
             document.getElementById("car").innerHTML = car;
             document.getElementById("code").innerHTML = codeCP;
-            document.getElementById("ticket-price").innerHTML = totalPrice.toFixed(2);
+            document.getElementById("ticket-price").innerHTML = " &euro;" + totalPrice.toFixed(2);
         } else {
             errorsDiv.innerHTML += "La distanza da percorrere deve essere di almeno 1km!"
         }
