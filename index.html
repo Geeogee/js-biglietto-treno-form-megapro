@@ -5,10 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ticket Train Megapro</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
+    
+
+        <div class="container">
+           <h2>
+               Calcola il prezzo del tuo biglietto
+           </h2>
+
+           <div class="ticket-info">
+
+               <div class="user-values">
+                    <div>
+                        <label for="name">Nome e Cognome:</label>
+                        <input id="name" type="text" placeholder="Nome e Cognome">
+                    </div> 
+                    
+                    <div> 
+                        <label for="distance">Distanza:</label>
+                        <input id="distance" type="number" placeholder="Distanza in km">
+                    </div>
+                    
+                    <div>
+                        <label for="age">Et&agrave;:</label>
+                        <select id="age">
+                            <option value="" selected>Seleziona un'opzione</option>
+                            <option value="1">Minorenne</option>
+                            <option value="2">Maggiorenne</option>
+                            <option value="3">Over 65</option>
+                        </select>
+                    </div>
+               </div>
+
+               <div class="actions">
+                   <input type="button" id="btn-generate" value="Genera">
+                   <input type="button" jd="btn-cancel" value="Annulla">
+               </div>
+
+           </div>
+    
+            <h2>
+                Il tuo biglietto
+            </h2>
+        </div>
+
     <!-- Script -->
     <script src="js/script.js"></script>
 </body>
