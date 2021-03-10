@@ -27,7 +27,7 @@
                         <label for="name">Nome e Cognome:</label>
                         <input id="name" type="text" placeholder="Nome e Cognome">
                     </div> 
-                    
+
                     <div> 
                         <label for="distance">Distanza:</label>
                         <input id="distance" type="number" placeholder="Distanza in km">
@@ -54,6 +54,34 @@
             <h2>
                 Il tuo biglietto
             </h2>
+
+            <div class="ticket-generated">
+                <h3>
+                    Dettaglio passeggeri
+                </h3>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome passeggero</th>
+                            <th>Offerta</th>
+                            <th>Carrozza</th>
+                            <th>Codice CP</th>
+                            <th>Costo biglietto</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td id="username"></td>
+                            <td id="discount"></td>
+                            <td id="car"></td>
+                            <td id="code"></td>
+                            <td id="ticket-price"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
     <!-- Script -->
