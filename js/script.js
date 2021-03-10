@@ -65,12 +65,15 @@ generateBtn.addEventListener("click", function() {
         } else {
             errorsDiv.innerHTML += "La distanza da percorrere deve essere di almeno 1km!"
         }
-
-
     }
-
 });
 
 cancelBtn.addEventListener("click", function() {
-    
+    var userFullname = document.getElementById("name");
+    var distanceKM = document.getElementById("distance");
+    var age = document.getElementById("age");
+
+    userFullname.value = "";
+    distanceKM.value = "";
+    age.value = "";
 });
