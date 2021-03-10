@@ -76,4 +76,10 @@ cancelBtn.addEventListener("click", function() {
     userFullname.value = "";
     distanceKM.value = "";
     age.value = "";
+    document.getElementById("username").innerHTML = "";
+    document.getElementById("discount").innerHTML = "";
+    document.getElementById("car").innerHTML = "";
+    document.getElementById("code").innerHTML = "";
+    document.getElementById("ticket-price").innerHTML = "";
+
 });
