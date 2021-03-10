@@ -30,7 +30,7 @@
 
                     <div> 
                         <label for="distance">Distanza:</label>
-                        <input id="distance" type="number" placeholder="Distanza in km">
+                        <input id="distance" type="number" min="0" placeholder="Distanza in km">
                     </div>
                     
                     <div>
@@ -46,7 +46,7 @@
 
                <div class="actions">
                    <input type="button" id="btn-generate" value="Genera">
-                   <input type="button" jd="btn-cancel" value="Annulla">
+                   <input type="button" id="btn-cancel" value="Annulla">
                </div>
 
            </div>
@@ -82,6 +82,8 @@
                     </tbody>
                 </table>
             </div>
+
+            <div id="errors"></div>
         </div>
 
     <!-- Script -->
